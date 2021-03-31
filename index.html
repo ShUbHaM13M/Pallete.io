@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Palette.io</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo">
+      <svg id="logo" width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="50" height="51" fill="white" />
+        <rect id="one" width="50" height="17" fill="#EB5757" />
+        <rect id="two" y="17" width="50" height="17" fill="#F2994A" />
+        <rect id="three" y="34" width="50" height="17" fill="#56CCF2" />
+      </svg>
+      <h1 class="text-container">Palette.io</h1>
+    </div>
+
+    <div class="holder" id="p">
+      <div class="palette" value="0">
+        <input type="image" src="./imgs/icons-unlock.svg" alt="Unlock" id="is-locked" value="unlocked" />
+        <div id="tooltip-text">copy</div>
+        <input type="image" src="./imgs/multi-tab.svg" alt="copy" id="copy" />
+        <p id="color"></p>
+      </div>
+      <div class="palette" value="1">
+        <input type="image" src="./imgs/icons-unlock.svg" alt="Unlock" id="is-locked" value="unlocked" />
+        <div id="tooltip-text">copy</div>
+        <input type="image" src="./imgs/multi-tab.svg" alt="copy" id="copy" />
+        <p id="color"></p>
+      </div>
+      <div class="palette" value="2">
+        <input type="image" src="./imgs/icons-unlock.svg" alt="Unlock" id="is-locked" value="unlocked" />
+        <div id="tooltip-text">copy</div>
+        <input type="image" src="./imgs/multi-tab.svg" alt="copy" id="copy" />
+        <p id="color"></p>
+      </div>
+      <div class="palette" value="3">
+        <input type="image" src="./imgs/icons-unlock.svg" alt="Unlock" id="is-locked" value="unlocked" />
+        <div id="tooltip-text">copy</div>
+        <input type="image" src="./imgs/multi-tab.svg" alt="copy" id="copy" />
+        <p id="color"></p>
+      </div>
+      <div class="palette" value="4">
+        <input type="image" src="./imgs/icons-unlock.svg" alt="Unlock" id="is-locked" value="unlocked" />
+        <div id="tooltip-text">copy</div>
+        <input type="image" src="./imgs/multi-tab.svg" alt="copy" id="copy" />
+        <p id="color"></p>
+      </div>
+    </div>
+    <div class="btns">
+      <!-- <input type="button" name="previous" value="Previous Colors" class="btn" id="previousBtn"
+        onclick="onPreviousBtnClicked()" /> -->
+      <input type="button" name="generate" value="Generate" class="btn" id="generateBtn"
+        onclick="onGenerateBtnPressed()" />
+    </div>
+
+    <p class="copied-text"></p>
+  </div>
+
+  <script src="./js/init_anim.js"></script>
+  <script type="text/javascript" src="./js/app.js"></script>
+</body>
+
+</html>
